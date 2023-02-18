@@ -1,6 +1,8 @@
 const swiper = new Swiper(".swiper", {
     spaceBetween: 20,
     slidesPerView: 2,
+    preloadImages: false,
+    lazy: true,
     centeredSlides: false,
     autoplay: {
       delay: 2500,
