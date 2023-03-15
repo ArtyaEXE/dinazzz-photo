@@ -5,7 +5,7 @@ const swiper = new Swiper(".swiper", {
     lazy: true,
     centeredSlides: false,
     autoplay: {
-      delay: 2500,
+      delay: 2000,
       disableOnInteraction: false,
     },
     breakpoints: {
