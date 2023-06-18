@@ -1,13 +1,12 @@
-@media(max-width: 500px ) {
+@media (max-width: 500px) {
+  .price-container {
+    text-align: center;
+  }
+  .price-item {
+    width: 100%;
+  }
 
-    .price-container {
-        text-align: center;
-    }
-    .price-item {
-        width: 100%;
-    }
-
-    .item-block {
-        padding: 20px;
-    }
+  .item-block {
+    padding: 20px;
+  }
 }
