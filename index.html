@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/media.css" />
@@ -23,8 +24,9 @@
             src="./img/IMG_4477_cut-photo.ru.PNG"
             alt="Логотип"
             class="header-logo"
+            data-aos="fade-right"
           />
-          <div class="social">
+          <div class="social" data-aos="fade-left">
             <nav class="header-nav">
               <a
                 href="https://teleg.run/di7n7a7z7z"
@@ -65,7 +67,7 @@
       <main class="main">
         <div class="about-container">
           <section class="about">
-            <div class="about-block">
+            <div class="about-block" data-aos="fade-up">
               <div class="about__descr">Фотограф</div>
               <h1 class="about__title">Диана Пашян</h1>
               <div class="about__text">
@@ -79,7 +81,7 @@
             </div>
           </section>
           <section class="works">
-            <div class="works-container">
+            <div class="works-container" data-aos="fade-in">
               <h2 class="works-title">Портфолио</h2>
               <div class="swiper">
                 <div class="swiper-wrapper">
@@ -154,7 +156,7 @@
             </div>
           </section>
           <section class="price">
-            <div class="price-container">
+            <div class="price-container" data-aos="fade-up">
               <h2 class="price__title">Прайс-лист</h2>
               <ul class="price-descr-list">
                 <li class="descr-item">
@@ -177,7 +179,7 @@
               </p>
               <div class="price-block">
                 <ul class="price-list">
-                  <li class="price-item">
+                  <li class="price-item" data-aos="fade-up">
                     <img
                       class="price__img"
                       src="./img/swiper/Individ.jpg"
@@ -191,7 +193,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="price-item">
+                  <li class="price-item" data-aos="fade-up">
                     <img
                       class="price__img"
                       src="./img/swiper/Love.jpg"
@@ -207,7 +209,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="price-item">
+                  <li class="price-item" data-aos="fade-up">
                     <img
                       class="price__img"
                       src="./img/swiper/Party.jpg"
@@ -223,7 +225,7 @@
                       </p>
                     </div>
                   </li>
-                  <li class="price-item">
+                  <li class="price-item" data-aos="fade-up">
                     <img
                       class="price__img"
                       src="./img/swiper/Art5.JPG"
@@ -264,6 +266,7 @@
       defer
       src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
     ></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="./main.js"></script>
   </body>
 </html>

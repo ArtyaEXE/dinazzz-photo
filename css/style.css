@@ -96,12 +96,10 @@ body {
   margin-bottom: 20px;
 }
 .works-container {
-  opacity: 0;
   transform: translateY(20px);
   transition-duration: 1.5s;
 }
 .works-container.element-show {
-  opacity: 1;
   transform: translateY(0%);
 }
 .works-title {
